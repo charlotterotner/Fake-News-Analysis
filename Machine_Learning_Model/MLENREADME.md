@@ -16,4 +16,4 @@ The Model which we will be using for our supervised machine learning will be a L
 
 ## Flowchart:
 Below is a flow chart showing the decision making process which led to the choice of a logistic regression.
-![mlenvFlowChart](https://github.com/charlotterotner/Final-Project/blob/Machine_Learning_Model/Machine_Learning_Model/mlenvFlowChart.png)
+![MachineLearningFlowChart](https://github.com/charlotterotner/Final-Project/blob/Machine_Learning_Model/Machine_Learning_Model/MachineLearningFlowChart.png)
