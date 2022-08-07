@@ -6,6 +6,10 @@
 ## Segment Role: 
 - Segment 1 - Circle Role (ERD Chart)
 
+## Technology:
+- QuickDB
+- Postgres
+
 ## Things to Note:
 - "published" column needs to be reformatted
 - Index column needs to be created
