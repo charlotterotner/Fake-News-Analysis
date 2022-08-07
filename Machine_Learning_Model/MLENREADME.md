@@ -13,3 +13,7 @@ Since we have a dataset with Labeled data, we will be using a Supervised Machine
 
 ## Model Type: 
 The Model which we will be using for our supervised machine learning will be a Logistical Regression Model since we are distinguishing between only two labels, so an article will either be 1 - Real or 0 - Fake
+
+## Flowchart:
+Below is a flow chart showing the decision making process which led to the choice of a logistic regression.
+![mlenvFlowChart](https://github.com/charlotterotner/Final-Project/blob/Machine_Learning_Model/Machine_Learning_Model/mlenvFlowChart.png)
