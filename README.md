@@ -11,7 +11,7 @@
 - Index column needs to be created
 - Columns we don't need
 
-## ERD Chart
+## ERD Chart:
 
 <p align="center">
   <img src="https://github.com/charlotterotner/Final-Project/blob/Database_Diagram/Images/Fake_News_ERD.png"/>
