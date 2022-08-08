@@ -11,7 +11,7 @@ Our group has agreed that slack and zoom will be our primary methods of communic
 We've selected Fake News as the topic for our final project. 'Fake News' is defined as misleading or false information presented as a real piece of news. 
 
 ### Reason why we selected this topic:
-We're interested in fake news given the current political climate and given the increase in fake news over the past few years. Social media has also made fake news more prevalent and easy to circulate to media consumers. There is a lot of data on fake news so we figured the topic would be interesting and also provide easy to access data. 
+We're interested in fake news given the current political climate and the recent increase in fake news. Social media has also made fake news more prevalent and easy to circulate to media consumers. We figured this topic would allow us to pick from many data sources and be intersting to research. 
 
 ### Data Source: 
 We found a data set from Kaggle which contains over 2,000 news articles that have been classified as real or fake. The data set is easily downloaded as a csv file which will add to our database. 
