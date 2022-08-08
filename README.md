@@ -16,7 +16,7 @@ We're interested in fake news given the current political climate and given the 
 ### Data Source: 
 We found a data set from Kaggle which contains over 2,000 news articles that have been classified as real or fake. The data set is easily downloaded as a csv file which will add to our database. 
 
-Source based Fake News Classification from Kaggle
+Link to Kaggle Data Source: [Source based Fake News Classification](https://www.kaggle.com/datasets/ruchi798/source-based-news-classification) 
  
 ### Questions we want to answer with the data: 
 
