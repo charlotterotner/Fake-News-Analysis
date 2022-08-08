@@ -14,7 +14,7 @@ We've selected Fake News as the topic for our final project. 'Fake News' is defi
 We're interested in fake news given the current political climate and the recent increase in fake news. Social media has also made fake news more prevalent and easy to circulate to media consumers. We figured this topic would allow us to pick from many data sources and be intersting to research. 
 
 ### Data Source: 
-We found a data set from Kaggle which contains over 2,000 news articles that have been classified as real or fake. The data set is easily downloaded as a csv file which will add to our database. 
+We found a data set from Kaggle which contains over 2,000 news articles that have been classified as real or fake. The data set is in a csv file which we will add to our database. 
 
 Link to Kaggle Data Source: [Source based Fake News Classification](https://www.kaggle.com/datasets/ruchi798/source-based-news-classification) 
  
