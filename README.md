@@ -13,7 +13,8 @@
 ## Things to Note:
 - "published" column needs to be reformatted
 - Index column needs to be created
-- Columns we don't need
+- Get rid of columns we don't need
+- Null values & occasional string in integer column
 
 ## ERD Chart:
 
