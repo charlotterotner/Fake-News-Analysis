@@ -1,7 +1,7 @@
 CREATE TABLE article_stats (
     uuid VARCHAR NOT NULL,
     ord_in_thread INT NOT NULL,
-    hasImage INT NOT NULL,
+    has_image INT NOT NULL,
     spam_score NUMERIC(5,3) NOT NULL,
     replies_count INT NOT NULL,
     participants_count INT NOT NULL,
@@ -25,6 +25,6 @@ CREATE TABLE clean_articles (
      label VARCHAR NOT NULL,
      title_without_stopwords TEXT NOT NULL,
      text_without_stopwords TEXT NOT NULL,
-     FOREIGN KEY (uuid) REFERENCES article_stats
+     FOREIGN KEY (uuid) REFERENCES article_stats,
      PRIMARY KEY (title)
 );
