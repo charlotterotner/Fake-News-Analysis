@@ -8,13 +8,25 @@ For our dashboard plan we've decided we will use Tableau to build visuals and a 
 
 ## Machine Learning Model 
 
-In additiona to our dashboard plan we starting planning for executing our machine learning model. Below is our process outlining this:
+In addition to our dashboard plan we starting planning for executing our machine learning model. Below is our process outlining this:
 
 ### Cleaning and preliminary data preprocessing:
+To ensure our tables were clean and ready to be inputted into a machine learning model we cleaned the data by:
+- Dropping null values 
+- Cleaned up the title rows so our two tables had matching title formatting
+- Dropped all rows that did not have title. 
 
 ### Preliminary feature engineering and feature selection:
+- Remove the following columns that we don’t want to consider in our features: Language, Title, text text_without_stopwords, Title_without_stopwords,main_img_url, UUID (index), Domain rank, Country, ord_in_thread
+
+- Convert label column to be a binary 1 or 0 instead of real or fake 
+- Use OneHotEnconder to create categorical variable lists for the following qualitative features:	siteurl, Author, Type
+
+Once we’ve done this we will merge the one-hot encoded features with our original data frame and drop the original feature columns.
 
 ### Training and Testing:
+
+To split the testing and training model we will create a SKLearn instance and scale the data.  Our input values are: Author, siteurl, type, likes, comments, and shares. And our target outpout is whether the article is considered fake or not fake 
 
 ### Model Choice:
 We chose to use a logistic regression model for our analysis. In this instance our two classes would be “fake” and “not fake”. We want to determine how likely a piece of news is to be real or fake based on a number of different features. 
