@@ -11,10 +11,11 @@ For our dashboard plan we've decided we will use Tableau to build visuals and a 
 In addition to our dashboard plan we starting planning for executing our machine learning model. Below is our process outlining this and our code for the model can be found [here](https://github.com/charlotterotner/Final-Project/blob/model_draft/FakeNews_LogisticRegression_Model.ipynb)
 
 ### Cleaning and preliminary data preprocessing:
-To ensure our tables were clean and ready to be joined inputted into a machine learning model we cleaned the data by:
+To ensure our tables were clean and ready to be joined and inputted into a machine learning model we cleaned the data by:
 - Dropping null values 
-- Cleaned up the title rows so our two tables had matching title formatting
-- Dropped all rows that did not have title. 
+- Using regex to clean up the title rows so our two tables had matching title formatting
+- Dropped all rows that did not have title.
+- Converted the original time/date stamp
 
 ### Preliminary feature engineering and feature selection:
 - Remove the following columns that we don’t want to consider in our features: Language, Title, text, text_without_stopwords, Title_without_stopwords, main_img_url, UUID (index), Domain rank, Country, ord_in_thread.
