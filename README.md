@@ -8,19 +8,21 @@ For our dashboard plan we've decided we will use Tableau to build visuals and a 
 
 ## Machine Learning Model 
 
-In addition to our dashboard plan we starting planning for executing our machine learning model. Below is our process outlining this:
+In addition to our dashboard plan we starting planning for executing our machine learning model. Below is our process outlining this and our code for the model can be found [here](https://github.com/charlotterotner/Final-Project/blob/model_draft/FakeNews_LogisticRegression_Model.ipynb)
 
 ### Cleaning and preliminary data preprocessing:
-To ensure our tables were clean and ready to be inputted into a machine learning model we cleaned the data by:
+To ensure our tables were clean and ready to be joined inputted into a machine learning model we cleaned the data by:
 - Dropping null values 
 - Cleaned up the title rows so our two tables had matching title formatting
 - Dropped all rows that did not have title. 
 
 ### Preliminary feature engineering and feature selection:
-- Remove the following columns that we don’t want to consider in our features: Language, Title, text text_without_stopwords, Title_without_stopwords,main_img_url, UUID (index), Domain rank, Country, ord_in_thread
+- Remove the following columns that we don’t want to consider in our features: Language, Title, text, text_without_stopwords, Title_without_stopwords, main_img_url, UUID (index), Domain rank, Country, ord_in_thread.
+
+We removed these columns because for the purposes of our model we are not evaluating the words in the title or article. The country column was not international and only contained two countries (USA and GB). 
 
 - Convert label column to be a binary 1 or 0 instead of real or fake 
-- Use OneHotEnconder to create categorical variable lists for the following qualitative features:	siteurl, Author, Type
+- Use OneHotEnconder to create categorical variable lists for the following qualitative features:	siteurl, Author, and Type. 
 
 Once we’ve done this we will merge the one-hot encoded features with our original data frame and drop the original feature columns.
 
