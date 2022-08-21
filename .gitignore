@@ -1,3 +1,8 @@
+# Files added to gitignore
+config.py
+Database_Integration/fake-news/
+Database_Integration/source-based-news-classification/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
