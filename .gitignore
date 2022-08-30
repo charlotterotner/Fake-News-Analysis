@@ -2,6 +2,7 @@
 config.py
 Database_Integration/fake-news/
 Database_Integration/source-based-news-classification/
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
